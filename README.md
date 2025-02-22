@@ -16,7 +16,7 @@ https://en.wikipedia.org/wiki/Reflow_soldering
 
 - **FSM:** Reflow state are controlled by finite state machine
 
-- **Temperature Measurement:** Oven temperature is measured between 25°C and 240°C using a K-type thermocouple with cold junction compensation.
+- **Temperature Measurement:** Oven temperature is measured between 25°C and 240°C through board ADC using a K-type thermocouple with cold junction compensation.
 
 - **Oven Control:** A 1500W toaster oven is regulated via a solid-state relay (SSR) using PWM for power delivery.
 
@@ -40,3 +40,5 @@ https://en.wikipedia.org/wiki/Reflow_soldering
 
 ### One profile we were able to get with our controller:
 
+## Contributors
+Andrew Guan, Ling He, Trevor Owens, Kenzo Peraire, Emma Yu, Justin Zheng

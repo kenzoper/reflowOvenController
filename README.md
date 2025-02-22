@@ -14,9 +14,9 @@ https://en.wikipedia.org/wiki/Reflow_soldering
 
 - **Assembly Language Firmware:** The microcontroller firmware is programmed in assembly language.
 
-- **FSM:** Reflow state are controlled by finite state machine
+- **FSM:** Reflow states are controlled by finite state machine
 
-- **Temperature Measurement:** Oven temperature is measured between 25°C and 240°C through board ADC using a K-type thermocouple with cold junction compensation.
+- **Temperature Measurement:** Oven temperature is measured between ~25°C and ~240°C through board ADC using a K-type thermocouple with cold junction compensation.
 
 - **Oven Control:** A 1500W toaster oven is regulated via a solid-state relay (SSR) using PWM for power delivery.
 
@@ -32,13 +32,17 @@ https://en.wikipedia.org/wiki/Reflow_soldering
 
 - **Process Summary:** Displays maximum temperature, slopes, averages, and time spent in each stage.
 
-- **Multimeter Validation:** Simultaneously reads and compares thermocouple voltage from a second serial port, converting it to temperature to compare.
+- **Multimeter Validation:** Uses a multimeter to simultaneously read and compare thermocouple voltage from a second serial port and converting it to temperature to compare.
 
-- **Data Export & Email:** Automatically saves temperature data (ADC and multimeter validation) to temperature_data.xlsx and emails the file if an address is provided.
+- **Data Export & Email:** Automatically saves temperature data (ADC and multimeter validation) to excel sheet and emails the file if an address is provided.
 
 - **Safety Shutdown:** The system automatically shuts down if the oven fails to reach 50°C within the first 60 seconds.
 
-### One profile we were able to get with our controller:
+### Setup
+
+### Board
+
+### A profile we were able to get with our controller:
 
 ## Contributors
 Andrew Guan, Ling He, Trevor Owens, Kenzo Peraire, Emma Yu, Justin Zheng

@@ -40,4 +40,3 @@ https://en.wikipedia.org/wiki/Reflow_soldering
 
 ### One profile we were able to get with our controller:
 
-<img src="./pictures/ovenprofile.png" width="70%">
